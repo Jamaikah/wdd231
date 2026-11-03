@@ -1,0 +1,224 @@
+/*---- COLOR SCHEME ----
+midnight navy #0B132B
+champagne gold #E6C594
+*/
+* {
+    box-sizing: border-box;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 24px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: end;
+    border-bottom: solid 1px #ddd;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+}
+
+header span {
+    font-size: 1rem;
+    color: #0B132B;
+    font-family: "Libre Baskerville", serif;
+}
+
+
+.hamburger {
+    background: none;
+    border: none;
+    color: #0B132B;
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+
+ .navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: block;
+    padding: .8rem 10px;
+    color: #0B132B;
+    text-decoration: none;
+    border-bottom: solid 1px #ddd;
+    font-family: "Libre Baskerville", serif;
+    font-size: 0.9rem;
+}
+
+.navigation li.current {
+    background-color: #ddd;
+}
+
+.navigation a:hover {
+    background-color: #E6C594;
+}
+
+
+h1 {
+    margin-left: 10px;
+    color: #0B132B;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.8rem;
+}
+
+
+
+footer {
+    background-color: #eee;
+    padding: 8px 0 8px 0;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 15px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: #0B132B solid 1px;
+    border-radius: 22px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: #ddd;
+}
+
+
+section {
+    margin: 10px;
+}
+
+
+.about {
+    border: 1px;
+    border-radius: 5px;
+    padding-bottom: 5px;
+}
+
+
+.space {
+    background-color: #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+    margin-top: -0.7rem;
+}
+
+.about p {
+    background-color: #ddd;
+    padding: 5px;
+    margin: 10px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 100;
+    font-size: 0.9rem;
+    word-spacing: 0.5px;
+}
+
+.photo {
+    border-radius: 5px;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+
+
+h2 {
+    color: #eee;
+    background-color: #0B132B;
+    padding: 10px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    text-align: center;
+    margin-top: 1rem;
+    font-family: "Libre Baskerville", serif;
+    font-size: 1.1rem;
+}
+
+.filter {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+}
+
+.filter button {
+    padding: 0.5rem;
+    font-weight: 700;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: "Libre Baskerville", serif;
+    font-size: 0.9rem;
+}
+
+.filter button:hover {
+    background-color: #E6C594;
+}
+
+.course-list {
+    display: grid;
+    gap: 10px;
+}
+
+.course-card {
+    padding: 0.8rem;
+    text-align: center;
+    background-color: #ddd;
+    border: 1px solid #999;
+    margin-top: 1rem;
+    font-family: "Libre Baskerville", serif;
+    font-size: 0.9rem;
+}
+
+.course-card.completed {
+    background-color: #E6C594;
+    font-weight: 700;
+}
+
+#total-credits {
+    text-align: center;
+    margin: 1.2rem;
+    font-family: "Libre Baskerville", serif;
+    font-size: 0.9rem;
+}

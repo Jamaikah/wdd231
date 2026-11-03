@@ -1,13 +1,86 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 231</title>
-</head>
-<body>
-    <header>
-        <h1>WDD 231 | Haezell Jamaikah Abdul</h1>
-    </header>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Haezell Jamaikah Abdul's home course page for the WDD 231 course">
+        <meta name="author" content="Haezell Jamaikah Abdul">
+        <title>WDD 231</title>
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/large.css">
+        <script src="scripts/navigation.js" defer></script>
+        <script src="scripts/course.js" defer></script>
+        <script src="scripts/date.js" defer></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+            rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img src="images/home.svg" alt="Site Logo" width="512" height="512">
+            <span>Haezell Jamaikah's Home Course Page</span>
+            <button id="ham-btn" class="hamburger"></button>
+        </header>
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="https://byui-cse.github.io/wdd231-ww-course/week02/assignment-02.html">Chamber Project</a></li>
+                <li><a href="https://byui-cse.github.io/wdd231-ww-course/week06/project-description.html">Final Project</a></li>
+            </ul>
+        </nav>
+        <main>
+            <h1>Home</h1>
+            <div class="about-me">
+                <section class="about">
+                    <h2>About Me</h2>
+                    <div class="space">
+                        <p>Hi! I'm Haezell Jamaikah Abdul, a student from Cagayan de Oro, Philippines, currently exploring the world of web
+                            development. I enjoy discovering new ways to turn ideas into
+                            something creative and functional. Outside of academics, I spend my time taking photographs, playing guitar,
+                            listening
+                            to music, reading stories, exploring new places, and documenting little moments that I want to remember. I'm
+                            naturally curious
+                            and enjoy
+                            learning about different things, challenging myself, and gaining new experiences. I believe that growth takes
+                            time, and
+                            I'm always looking for opportunities to improve my skills, explore my interests, and step outside my comfort
+                            zone.</p>
+                    </div>
+                </section>
+                <section class="photo">
+                    <h2>Student Photo</h2>
+                    <div class="space">
+                        <img src="images/student-photo.webp" alt="Haezell Jamaikah Abdul's Photo">
+                    </div>
+                </section>
+            </div>
+            <section class="courses" id="courses">
+                <h2>Web & Computer Programming Certificate Courses</h2>
+                <div class="filter" id="filter">
+                    <button type="button">All</button>
+                    <button type="button">WDD</button>
+                    <button type="button">CSE</button>
+                </div>
+                <div class="course-list" id="course-list">
+                </div>
+                <p id="total-credits"></p>
+            </section>
+            
+        </main>
+        <footer>
+            <div class="social">
+                <a href="https://github.com/Jamaikah"  target="_blank"><img src="images/github.svg" alt="GitHub Profile" width="16" height="16"></a>
+                <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="Linkedin Profile" width="16" height="16"></a>
+                <a href="https://www.facebook.com/haezell.jamaikah" target="_blank"><img src="images/facebook.svg" alt="Facebook Profile" width="16" height="16"></a>
+                <a href="https://www.instagram.com/maikah.dxd/" target="_blank"><img src="images/instagram.svg" alt="Instagram Profile" width="16" height="16"></a>
+            </div>
+            <p>©    <span id="currentyear"></span> | Haezell Jamaikah Abdul | Philippines
+            </p>
+            <p id="lastModified"></p>
+        </footer>
+    </body>
+    </html>
+
