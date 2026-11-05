@@ -1,0 +1,38 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+    grid-gap: 0.5rem;
+    border: 10px solid rgb(220, 228, 232);
+
+}
+
+h1 {
+    text-align: center;
+    color: rgb(16, 63, 117);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(16, 63, 117);
+}
+
+p {
+    text-align: center;
+}
+
+section {
+    border: 1px solid rgb(16, 63, 117);
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    background-color: rgb(133, 162, 195);
+}
+
+img {
+    box-shadow: 0 0 1.3rem black;
+    width: 100%;
+    height: auto;
+}
