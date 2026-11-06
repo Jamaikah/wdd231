@@ -5,7 +5,7 @@
             "companyAddress": "apple@email.com",
             "companyPhoneNumber": "(408) 974-3123",
             "companyURL": "https://www.apple.com/",
-            "image": "apple.png",
+            "image": "images/apple.png",
             "membershipLevel": "3",
             "otherInfo": ""
         },
@@ -14,7 +14,7 @@
             "companyAddress": "microsoft@email.com",
             "companyPhoneNumber": "(425) 882-8080",
             "companyURL": "https://www.microsoft.com/en-ph",
-            "image": "microsoft.png",
+            "image": "images/microsoft.png",
             "membershipLevel": "2",
             "otherInfo": ""
         },
@@ -23,7 +23,7 @@
             "companyAddress": "amazon@email.com",
             "companyPhoneNumber": "+1-206-266-1000",
             "companyURL": "https://www.amazon.com/",
-            "image": "amazon.png",
+            "image": "images/amazon.png",
             "membershipLevel": "2",
             "otherInfo": ""
         },
@@ -32,7 +32,7 @@
             "companyAddress": "sanmiguel@email.com",
             "companyPhoneNumber": "+63 (2) 8-632-3000",
             "companyURL": "https://www.sanmiguel.com.ph/",
-            "image": "san-miguel.png",
+            "image": "images/san-miguel.png",
             "membershipLevel": "1",
             "otherInfo": ""
         },
@@ -41,7 +41,7 @@
             "companyAddress": "meta@email.com",
             "companyPhoneNumber": "+1 650-543-4800",
             "companyURL": "https://www.meta.com/",
-            "image": "meta.png",
+            "image": "images/meta.png",
             "membershipLevel": "2",
             "otherInfo": ""
         },
@@ -50,7 +50,7 @@
             "companyAddress": "nike@email",
             "companyPhoneNumber": "1-503-671-6453",
             "companyURL": "https://www.nike.com/",
-            "image": "nike.png",
+            "image": "images/nike.png",
             "membershipLevel": "3",
             "otherInfo": ""
         },
@@ -59,7 +59,7 @@
             "companyAddress": "smc@email.com",
             "companyPhoneNumber": "(632) 8857-0100",
             "companyURL": "https://www.sminvestments.com/",
-            "image": "sm.png",
+            "image": "images/sm.png",
             "membershipLevel": "2",
             "otherInfo": ""
         }
