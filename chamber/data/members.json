@@ -1,0 +1,71 @@
+{
+    "companies": [
+        {
+            "companyName": "Apple",
+            "companyAddress": "One Apple Park Way, Cupertino, CA 95014, United States",
+            "companyPhoneNumber": "(408) 974-3123",
+            "companyURL": "https://www.apple.com/",
+            "image": "apple.png",
+            "membershipLevel": "3",
+            "otherInfo": ""
+        },
+        {
+            "companyName": "Microsoft",
+            "companyAddress": "One Microsoft Way, Redmond, WA 98052-6399, United States",
+            "companyPhoneNumber": "(425) 882-8080",
+            "companyURL": "https://www.microsoft.com/en-ph",
+            "image": "microsoft.png",
+            "membershipLevel": "2",
+            "otherInfo": ""
+        },
+        {
+            "companyName": "Amazon",
+            "companyAddress": "410 Terry Avenue North, Seattle, Washington, 98109, United States",
+            "companyPhoneNumber": "+1-206-266-1000",
+            "companyURL": "https://www.amazon.com/",
+            "image": "amazon.png",
+            "membershipLevel": "2",
+            "otherInfo": ""
+        },
+        {
+            "companyName": "San Miguel Corporation",
+            "companyAddress": "40 San Miguel Avenue, Mandaluyong City, 1550 Metro Manila, Philippines",
+            "companyPhoneNumber": "+63 (2) 8-632-3000",
+            "companyURL": "https://www.sanmiguel.com.ph/",
+            "image": "san-miguel.png",
+            "membershipLevel": "1",
+            "otherInfo": ""
+        },
+        {
+            "companyName": "Meta",
+            "companyAddress": "1 Meta Way, Menlo Park, California, 94025, United States",
+            "companyPhoneNumber": "+1 650-543-4800",
+            "companyURL": "https://www.meta.com/",
+            "image": "meta.png",
+            "membershipLevel": "2",
+            "otherInfo": ""
+        },
+        {
+            "companyName": "Nike",
+            "companyAddress": "One Bowerman Drive, Beaverton, OR 97005, United States",
+            "companyPhoneNumber": "1-503-671-6453",
+            "companyURL": "https://www.nike.com/",
+            "image": "nike.png",
+            "membershipLevel": "3",
+            "otherInfo": ""
+        },
+        {
+            "companyName": "SM Investments Corporation",
+            "companyAddress": "10th Floor, One E-Com Center, Harbor Drive, Mall of Asia Complex (CBP-1A), Pasay City 1300, Philippines",
+            "companyPhoneNumber": "(632) 8857-0100",
+            "companyURL": "https://www.sminvestments.com/",
+            "image": "sm.png",
+            "membershipLevel": "2",
+            "otherInfo": ""
+        }
+
+    ]       
+}
+
+
+
