@@ -38,8 +38,7 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .current {
-        text-decoration: underline;
+    #cards.list .card-header {
+        font-size: 0.9rem;
     }
-
 }
