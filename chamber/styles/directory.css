@@ -1,0 +1,219 @@
+/* Color Scheme
+rgb(135, 157, 207)
+
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: rgb(135, 157, 207);
+    font-family: "Cormorant Garamond", serif;
+}
+
+header img {
+    display: inline-block;
+    width: 60px;
+    height: auto;
+    padding-bottom: 5px;
+    margin-left: 4px;
+}
+
+header span {
+    margin-left: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.hamburger {
+    margin-left: auto;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.hamburger::before {
+    content: " \2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+    font-size: 2rem;
+}
+
+
+.navigation {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    background-color: rgb(135, 157, 207);
+    font-size: 18px;
+    font-weight: 570;
+}
+
+
+.navigation.show {
+    display: flex;
+}
+
+.navigation a {
+    display: block;
+    text-align: center;
+    padding: .8rem 10px;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 1px solid rgb(114, 130, 172);
+    color: black;
+    font-weight: 540;
+}
+
+.navigation a:hover {
+    background-color: rgb(233, 235, 241);
+    border-radius: 2px;
+}
+
+
+body {
+    background-color: rgb(233, 235, 241);
+    font-family: "IBM Plex Serif", serif;
+}
+
+h1 {
+    margin: 10px 0 0 1rem;
+}
+
+.display-option {
+    text-align: center;
+    padding: 1rem;
+}
+
+.display-option button {
+    padding: 10px;
+    background-color: rgb(135, 157, 207);
+    font-weight: 600;
+    font-family: "IBM Plex Serif", serif;
+    font-size: 17px;
+    border-radius: 7px;
+}
+
+#cards.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+    margin-left: 1rem;
+    margin-right: 1rem;
+    grid-gap: 1rem;
+}
+
+#cards.grid .card-header a {
+    display: none;
+}
+
+#cards.list {
+    display: block;
+}
+
+#cards.list .card-body {
+    display: none;
+}
+
+#cards.list .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: none;
+}
+
+#cards.list section {
+    border:none;
+    border-top: 1px solid black;
+    border-radius: 0;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+#cards.list section a {
+    margin-right: 1rem;
+}
+
+section {
+    border: 1px solid black;
+    border-radius: 7px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.card-header {
+    border-bottom: 1px solid black;
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-body {
+    display: flex;
+    margin-top: 10px;
+}
+
+.card-body img {
+    width: 100px;
+    height: 100px;
+    border-radius: 7px;
+}
+
+.card {
+    overflow: hidden;
+}
+
+.card-info {
+    margin-left: 10px;
+    font-size: 14.5px;
+}
+
+footer {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: rgb(135, 157, 207);
+    font-family: "IBM Plex Serif", serif;
+}
+
+.info p:first-child {
+    font-weight: bold;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.info p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.social {
+    text-align: center;
+    margin: 15px 15px 0 0;
+}
+
+.social a {
+    margin: 20px;
+}
+
+.student {
+    margin-left: 10px;
+}
+
+.student p {
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+

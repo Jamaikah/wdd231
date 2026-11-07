@@ -10,43 +10,57 @@
     <meta property="image" content="">
     <meta property="url" content="">
     <title>Chamber Directory Page</title>
+    <link rel="icon" href="cdococ-logo.ico">
     <link rel="stylesheet" href="styles/directory.css">
+    <link rel="stylesheet" href="styles/directory-large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
     <script src="scripts/directory.js" defer></script>
 </head>
 <body>
     <header>
-        <img src="" alt="">
-        <h1>Chamber of Commerce</h1>
+        <img src="images/cdococ-logo.svg" alt="Logo of Cagayan de Oro Chamber of Commerce">
+        <span>Cagayan de Oro Chamber of Commerce</span>
         <nav class="navigation" id="navigation">
             <a href="#">Home</a>
-            <a href="#">Directory</a>
+            <a href="#" class="current">Directory</a>
             <a href="#">Join</a>
             <a href="#">Discover</a>
         </nav>
         <button id="ham-btn" class="hamburger"></button>
     </header>
     <main>
-
+        <h1>Directory</h1>
+        <article class="display-option">
+            <button id="grid">Grid</button>
+            <button id="list">List</button>
+        </article>
+        
+        <div id="cards" class="grid"></div>
     </main>
     <footer>
         <div class="info">
-            <p>Chamber of Commerce</p>
-            <p>street</p>
-            <p>address</p>
-            <p>email</p>
-            <p>contact number</p>
+            <p>Cagayan de Oro Chamber of Commerce</p>
+            <p>849 Zorvindle Crescent</p>
+            <p>849 Zorvindle Crescent, Brindlewick, North Veloria</p>
+            <p>cdococ@email.com</p>
+            <p>+63 900-847-2916</p>
         </div>
         <div class="social">
-            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="Linkedin Profile" width="16"
-                    height="16"></a>
-            <a href="https://www.facebook.com/haezell.jamaikah" target="_blank"><img src="images/facebook.svg"
-                    alt="Facebook Profile" width="16" height="16"></a>
-            <a href="https://www.instagram.com/maikah.dxd/" target="_blank"><img src="images/instagram.svg"
-                    alt="Instagram Profile" width="16" height="16"></a>
+            <a href="https://linkedin.com" target="_blank"><img src="images/linkedin.svg" alt="Linkedin Profile" width="40"
+                    height="40"></a>
+            <a href="https://x.com/home" target="_blank"><img src="images/twitter.svg"
+                    alt="Twitter Profile" width="40" height="40"></a>
+            <a href="https://www.youtube.com/" target="_blank"><img src="images/youtube.svg"
+                    alt="Instagram Profile" width="40" height="40"></a>
         </div>
-        <p>© <span id="currentyear"></span> | Haezell Jamaikah Abdul | Philippines
-        </p>
-        <p id="lastModified"></p>
+        <div class="student">
+            <p>WDD 231 Class Project</p>
+            <p>© <span id="currentyear"></span> | Haezell Jamaikah Abdul | Philippines
+            </p>
+            <p id="lastModified"></p>
+        </div>
     </footer>
 </body>
 </html>
