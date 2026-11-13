@@ -62,8 +62,24 @@
             "image": "images/sm.png",
             "membershipLevel": "2",
             "otherInfo": ""
+        },
+        {
+            "companyName": "Nestle Philippines",
+            "companyAddress": "nestle@email.com",
+            "companyPhoneNumber": "(924) 4360-1156",
+            "companyURL": "https://www.nestle.com.ph/",
+            "image": "images/nestle-logo.webp",
+            "membershipLevel": "3",
+            "otherInfo": ""
+        },
+        {
+            "companyName": "Del Monte Philippines",
+            "companyAddress": "delmonteph@email.com",
+            "companyPhoneNumber": "(236) 0947-1264",
+            "companyURL": "https://www.delmontephil.com/",
+            "image": "images/nestle-logo.webp",
+            "membershipLevel": "3",
+            "otherInfo": ""
         }
-
-    ]       
+    ]
 }
-
