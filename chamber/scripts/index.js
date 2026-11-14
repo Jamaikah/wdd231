@@ -113,7 +113,7 @@ function forecastDisplay(forecastData) {
 
 const data_url = "data/members.json";
 const container = document.getElementById("spotlight-container");
-const levels = { "1": "Member", "2": "silver", "3": "Gold" };
+const levels = { "1": "Member", "2": "Silver", "3": "Gold" };
 
 function randoms(array) {
     const copy = [...array];
