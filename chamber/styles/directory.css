@@ -59,6 +59,7 @@ header span {
     background-color: rgb(135, 157, 207);
     font-size: 18px;
     font-weight: 570;
+    z-index: 10;
 }
 
 
@@ -71,9 +72,15 @@ header span {
     text-align: center;
     padding: .8rem 10px;
     text-decoration: none;
-    border-bottom: 1px solid rgb(114, 130, 172);
+    border-top: 1px solid    ;
     color: black;
     font-weight: 540;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 .navigation a:hover {
@@ -217,3 +224,145 @@ footer {
     margin-bottom: 2px;
 }
 
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.cta {
+    position: absolute;
+    display: block;
+    left:  50%;
+    top: 80%;
+    transform: translateX(-50%);
+    width:max-content;
+    height: auto;
+    border: none;
+    padding: 0.4rem 0.5rem;
+    background-color: rgb(135, 157, 207);
+    text-decoration: none;
+    border-radius: 5px;
+    color: black;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.cta:hover {
+    background-color: rgb(233, 235, 241);
+}
+
+.cdococ-desc
+{
+    text-align: center;
+    font-size: 15px;
+    padding: 2rem;
+    border-top: solid 5px rgb(135, 157, 207);
+    border-bottom: solid 5px rgb(135, 157, 207);
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+.current-events {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    padding: 0 1rem;
+    border: none;
+}
+
+.current-events img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    margin-left: 10px;
+    display: block;
+}
+
+.current-events p, .current-events figcaption {
+    justify-content: space-evenly;
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+
+.headings {
+    font-weight: bold;
+}
+
+.weather-section {
+    margin-top: 4rem; 
+    border-top: 5px solid rgb(135, 157, 207);
+}
+
+h2 {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.weather {
+    margin-top: 2px;
+    border: 1px solid black;
+    border-top: none;
+    border-bottom: solid 5px rgb(135, 157, 207);
+    border-radius: 0;
+    text-align: center;
+}
+
+#forecastDay {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#current-temp, #desc {
+    font-weight: bold;
+}
+
+#forecast p {
+    margin-top: 1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    border-top: 3px solid ;
+}
+
+.forecast-card {
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+    background-color: rgb(135, 157, 207);
+    margin-top: 10px;
+}
+
+.forecast-day, .forecast-date {
+    font-weight: bold;
+}
+
+.temp-high {
+    margin-right: 10px;
+}
+
+
+#spotlight-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.spotlight-card img {
+    max-width: 100%;
+    height: 100px;
+}
+
+.spotlight-card {
+    margin-left: 1rem;
+}
+
+.spotlight {
+    border: none;
+}

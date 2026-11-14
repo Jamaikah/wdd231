@@ -34,11 +34,24 @@
         text-decoration: none;
     }
 
+    nav ul {
+        display: flex;
+    }
+
+    .current {
+        background-color: rgba(170, 179, 209, 0.699);
+    }
+
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
     #cards.list .card-header {
         font-size: 0.9rem;
+    }
+
+    .cta {
+        font-size: 17px;
+        padding: 0.7rem 1.5rem;
     }
 }
